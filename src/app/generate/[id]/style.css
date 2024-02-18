@@ -1,0 +1,47 @@
+/* Default styles for larger screens */
+.genImage {
+    max-width: 400px;
+    min-width: 200px !important;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    width: 400px !important;
+    height: 300px;
+    border: white 1px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(54, 51, 51);
+    color: aliceblue !important;
+}
+.btn{
+    background-color: #64748b !important;
+}
+
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column; /* Stack items vertically for smaller screens */
+    }
+
+    .genImage {
+        max-width: 100%; /* Make the image responsive within its container */
+        min-width: auto !important;
+        margin-bottom: 10px;
+    }
+
+    .inputs {
+        width: 100% !important;
+        margin-top: 30px; /* Add some spacing around the input container */
+    }
+}
+
