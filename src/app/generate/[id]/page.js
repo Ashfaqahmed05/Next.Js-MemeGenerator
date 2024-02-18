@@ -70,6 +70,7 @@ export default function Detail(props) {
                 <h1 className="text-center my-auto font-bold">Memes generator</h1>
 
             </div>
+            
             <div className="container flex justify-evenly flex-wrap">
 
                 <div className="content">

@@ -16,13 +16,15 @@ export default async function Home() {
           <h1 className="text-center my-auto font-bold">Memes generator</h1>
 
         </div>
+        
         <div className="images flex flex-wrap justify-center ">
 
           {memesData.map((item) => {
             return <>
               <Link href={`/generate/${item.id}`}>
                 <div key={item.id} className="imgDiv h-60 w-60 m-2.5">
-                  <img className="mainImg h-48 w-48  hover:h-52 " src={item.url} alt="" />
+                <Image className="mainImg h-48 w-48 hover:h-52" src={item.url} width={200} height={200} alt="" />
+
 
                 </div>
               </Link>
