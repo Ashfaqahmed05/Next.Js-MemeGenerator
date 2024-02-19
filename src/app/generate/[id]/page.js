@@ -76,7 +76,7 @@ export default function Detail(props) {
                 <div className="content">
                     {single.url && <img className="genImage" src={imageUrl || defaultUrl} alt="" />}
                     {downloadImg ?
-                        <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  btn..." onClick={dowload}>Download</button>
+                        <button className="transition ease-in-out delay-150 bg-slate-500  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  btn..." onClick={dowload}>Download</button>
                         : <></>
                     }
                 </div>
@@ -85,7 +85,7 @@ export default function Detail(props) {
                         
                     <input className="text-black" type="text" onChange={getvalue1} placeholder="Text One" value={text1} required/><br /><br />
                     <input className="text-black" type="text" onChange={getvalue2} placeholder="Text Two" value={text2} required/><br /><br />
-                    <button type="submit" className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  btn...">Generate</button> <br />
+                    <button type="submit" className="transition ease-in-out delay-150 bg-slate-500  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  btn...">Generate</button> <br />
 
                     </form>
                 </div>

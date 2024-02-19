@@ -28,12 +28,14 @@ body {
 }
 
 
+
 .mainImg:hover{
   width: 208px !important;
   transition: all 0.3s ease-in-out;
 }
 .images{
   padding: 0 5%;
+  
 }
 .footer{
   width: 100%;
