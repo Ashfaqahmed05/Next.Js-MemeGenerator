@@ -30,9 +30,7 @@ export default async function Home() {
               </Link>
             </>
           })}
-          <div className="footer text-white">
-                    <h1 >Developed by <strong><Link href="https://www.facebook.com/profile.php?id=100053927520168">Ashfaq Ahmed </Link></strong></h1>
-            </div>
+      
         </div>
       </div>
     </main>

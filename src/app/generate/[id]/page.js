@@ -66,6 +66,9 @@ export default function Detail(props) {
 
     return (
         <>
+        <div>
+            
+        </div>
             <div className="h-10 flex justify-center bg-slate-500 mb-5">
                 <h1 className="text-center my-auto font-bold">Memes generator</h1>
 
@@ -90,9 +93,7 @@ export default function Detail(props) {
                     </form>
                 </div>
             </div>
-            <div className="footer text-white">
-                    <h1 >Developed by <strong><a href="https://www.facebook.com/profile.php?id=100053927520168">Ashfaq Ahmed</a></strong></h1>
-            </div>
+          
         </>
     );
 }

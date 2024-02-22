@@ -1,8 +1,11 @@
 /* Default styles for larger screens */
+.container{
+    margin-top: 50px;
+}
 .genImage {
     max-width: 400px;
     min-width: 200px !important;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .inputs {
@@ -45,3 +48,6 @@ input{
     }
 }
 
+.generateDiv{
+    margin-top: 20px;
+}
